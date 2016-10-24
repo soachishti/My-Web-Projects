@@ -1,0 +1,40 @@
+body {
+	padding:20px;
+}
+
+.myform textarea {
+	height:100px !important;
+}
+
+#next {
+	float:right;
+}
+
+.form-horizontal, .form-group {
+	margin-right: 0 !important; 
+	margin-left: 0 !important; 
+	margin-bottom: 10px !important; 
+}
+
+#SelectedProduct {
+    border-top: 3px solid black;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 10px;
+    background-color: white;
+    min-height: 250px;
+    z-index: 999;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#SelectedProductOverlap {
+    display:none;
+    height: 250px;
+}
+
+#SelectProductDiv {
+    height: 190px;
+}
